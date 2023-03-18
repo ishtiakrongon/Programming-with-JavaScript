@@ -15,6 +15,15 @@ console.log(joinAgain);
 
 console.log(joinAgain.charAt(3));
 
+// check string length
+
+var ign = "hollowfire";
+
+console.log(ign.length);
+console.log(ign.indexOf("w"));
+console.log(ign.toUpperCase());
+console.log(ign.toLowerCase());
+
 //-------------------------------------------------
 
 // Random number generator
