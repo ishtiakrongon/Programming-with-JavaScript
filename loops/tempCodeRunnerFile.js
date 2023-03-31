@@ -1,10 +1,4 @@
-var clothingItem = {
-    price: 50,
-    color: 'beige',
-    material: 'cotton',
-    season: 'autumn'
-}
-
-for( key of Object.keys(clothingItem) ) {
-    console.log(keys, ":", clothingItem[key])
-}
+var mappingArrys = [0, 10, 20, 30, 40, 50].map( function(num) {
+                        return num / 10;
+                    })
+console.log(mappingArrys);
