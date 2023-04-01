@@ -58,7 +58,11 @@ console.log(car1.speed, car2.speed);
 //---------------------------------------------------------------
 
 
+function count(...basket) {
+    console.log(basket.length)
+}
 
+count(10, 9, 8, 7, 6);
 
 
 
