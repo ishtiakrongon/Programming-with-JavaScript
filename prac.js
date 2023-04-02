@@ -1,13 +1,22 @@
-// const arr = [1,2,3,4,5];
-// const newArr = arr.filter(num => num % 2 === 0);
-// console.log(newArr);
+function scopeTest() {
+    var y = 44;
 
-const obj = {
-    prop1: {
-        prop2: {
-            prop3: 'value'
-        }
-    }
-};
+    console.log(x);
+}
 
-console.log(obj.prop1.prop2.prop3.length);
+var x = 33;
+scopeTest();
+
+//----------------------------------------------------------
+
+const  [a, b]  =  [1,2,3,4]
+
+console.log(b)
+
+//----------------------------------------------------------
+
+function count(...food) {
+    console.log(food.length)
+}
+
+count("Burgers", "Fries", null);
