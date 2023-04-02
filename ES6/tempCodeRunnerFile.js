@@ -1,5 +1,4 @@
-function count(...basket) {
-    console.log(basket.length)
-}
-
-count(10, 9, 8, 7, 6);
+    var result = {
+      value: 7
+    };
+    console.log(JSON.stringify(result));
