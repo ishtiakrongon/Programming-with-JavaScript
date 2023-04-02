@@ -23,7 +23,7 @@ const flyingCar = {
 
 console.log(flyingCar)
 
-// add new elements to arrays without using ppush() method
+// add new elements to arrays without using push() method
 
 let veggies = ['onion', 'parsley']
 veggies = [...veggies, 'carrot', 'beetroot']
