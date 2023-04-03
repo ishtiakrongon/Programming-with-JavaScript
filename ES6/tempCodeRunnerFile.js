@@ -1,7 +1,5 @@
-// sorting an array in decending order
+let numbers = [10, 20, 30, 40, 50];
 
-let array = [240, 100, 23, 55, 79, 90, 80, 99, 15, 54, 33];
-
-array.sort((a, b) => b - a);
-
-array.forEach(number => console.log(number));
+for(number of numbers) {
+    console.log(number);
+}
