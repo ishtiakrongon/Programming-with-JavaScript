@@ -26,3 +26,11 @@ for(number of numbers) {
 }
 
 //-------------------------------------------------------------------------------
+
+// ES6 for in loop
+
+let name = ['cyraxx', 'hollowfire', 'clumsy'];
+
+for(let index in name) {
+    console.log(name[index]);
+}
