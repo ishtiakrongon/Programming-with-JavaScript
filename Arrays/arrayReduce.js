@@ -1,4 +1,4 @@
-// array.reduce() = reduces an array to an single value
+// array.reduce() = reduces an array to a single value
 // summation of an array can be done with reduce method
 
 
