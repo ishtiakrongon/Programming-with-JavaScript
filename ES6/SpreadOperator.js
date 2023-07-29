@@ -40,3 +40,20 @@ for (let i = 0; i < class1.length; i++) {
 
 //-----------------------------------------------------------
 
+// Join Arrays using spread operator
+
+const fruits = ['apple', 'mango', 'jackfruit']
+const berries = []
+berries.push('blueberry');
+berries.push('strawberry');
+
+const fruitsandberries = [...fruits, ...berries]
+console.log(fruitsandberries);
+
+//----------------------------------------------------------
+
+// Convert a string to an array
+
+const greeting = "Hello";
+const arrayOfChars = [...greeting];
+console.log(arrayOfChars); //  ['H', 'e', 'l', 'l', 'o']

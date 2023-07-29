@@ -50,3 +50,17 @@ car.lightsOn = function() {
 console.log(car);
 car.turnTheKey();
 car.lightsOn()
+
+
+//-----------------------------------------------------
+
+let clothingItem = {
+    price: 50,
+    color: 'blue',
+    material: 'cotton',
+    season: 'autumn'
+}
+
+for (let key of Object.keys(clothingItem)) {
+    console.log("keys:- ", clothingItem[key]);
+}
