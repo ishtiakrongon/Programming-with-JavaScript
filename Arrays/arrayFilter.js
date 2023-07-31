@@ -13,12 +13,7 @@ let checkIncomeRange = incomes.filter(checkIncome);
 //     console.log(checkIncomeRange[i]);
 // }
 
-
-checkIncomeRange.forEach(print);
-
-function print (text) {
-    console.log(text);
-}
+checkIncomeRange.forEach(print => console.log(print));
 
 //------------------------------------------------------------
 
