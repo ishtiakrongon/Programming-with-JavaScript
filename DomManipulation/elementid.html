@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+<body>
+    <h1 id="intro-text" >Intro to the Document Object Model.</h1>
+    <p>I am learning Document Object Manipulation right now.</p>
+    <div>
+        <p>
+            Here is another paragraph inside a div element.
+        </p>
+    </div>
+    <script>
+        
+        let h1element = document.getElementById("intro-text");
+        h1element.firstChild.nodeValue = "The get methods";
+        h1element.style.color = 'violet';
+
+        let pElements = document.getElementsByTagName('p');
+
+        for (let pelement of pElements) {
+            pelement.style.color = 'blue';
+        }
+
+    </script>
+</body>
+</html>
