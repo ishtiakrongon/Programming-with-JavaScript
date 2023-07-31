@@ -19,3 +19,29 @@ function print(element) {
 
 // console.log(students[0]);
 
+
+//--------------------------------------------
+
+const socials = ['Twitter', 'Facebook', 'LinkedIn', 'Instagram']
+
+socials.forEach((item, index, arr) => console.log(`${index} - ${item}`, arr));
+
+
+//------------------------------------------------------------------------------------
+
+
+const socialOBj = [
+    {name: 'Facebook', url: 'https://www.facebook.com'},
+    {name: 'Twitter', url: 'https://www.twitter.com'},
+    {name: 'LinkedIn', url: 'https://www.linkedin.com'},
+]
+
+socialOBj.forEach(item => console.log(item.url));
+socialOBj.forEach(item => console.log(item.name));
+
+
+//----------------------------------------------------------------------------
+
+
+
+
