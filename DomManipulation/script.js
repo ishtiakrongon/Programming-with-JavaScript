@@ -1,10 +1,8 @@
-// console.dir(window.document);
-// console.log(document.body.innerText);
+let answer = prompt("What's your name?");
 
-// console.log(document.links[0]);
-
-// document.write("Hello idiot!");
-
-console.log(document.getElementById('main'));
-const main = document.getElementById('main');
-main.innerHTML = '<h1>Hello from main</h1>';
+if (typeof(answer) === 'string') {
+  let h1 = document.createElement('h1');
+  h1.innerText = answer;
+  document.body.innerText = '';
+  document.body.appendChild(h1);
+}
